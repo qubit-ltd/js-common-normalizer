@@ -7,8 +7,6 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 
-module.exports = {
-  extends: [
-    '@qubit-ltd/eslint-config',
-  ],
-};
+import config from '@qubit-ltd/eslint-config';
+
+export default config;
