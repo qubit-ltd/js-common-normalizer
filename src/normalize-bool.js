@@ -8,16 +8,22 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 /**
- * 将某个字段值正则化为`boolean`值。
+ * 将某个字段值正则化为 `boolean` 值。
  *
- * @param {string|boolean} value
+ * @param {any} value
  *     待正则化的字段值。
- * @return {boolean}
+ * @returns {boolean}
  *     正则化的结果。
+ * @throws {TypeError}
+ *     如果输入值的类型不是 `boolean`、`Boolean`、`string` 或 `String`。
+ * @throws {RangeError}
+ *     如果输入字符串不是有效的布尔值形式。
  */
 function normalizeBool(value) {
-  if ((typeof value === 'boolean') || (value instanceof Boolean)) {
-    return Boolean(value);
+  if (typeof value === 'boolean') {
+    return value;
+  } else if (value instanceof Boolean) {
+    return value.valueOf();
   } else if ((typeof value === 'string') || (value instanceof String)) {
     const val = value.trim().toLowerCase();
     if (val === 'true') {
