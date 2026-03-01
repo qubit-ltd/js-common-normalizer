@@ -1,6 +1,6 @@
 {
   "name": "@qubit-ltd/common-normalizer",
-  "version": "1.8.6",
+  "version": "1.8.7",
   "description": "A JavaScript ES6 library for common fields normalizers",
   "author": "Haixing Hu (starfish.hu@gmail.com)",
   "license": "Apache-2.0",
@@ -45,8 +45,8 @@
   },
   "peerDependencies": {
     "@babel/runtime": "^7.28.5",
-    "@qubit-ltd/common-util": "^5.4.7",
-    "@qubit-ltd/json": "^1.2.4",
+    "@qubit-ltd/common-util": "^5.4.9",
+    "@qubit-ltd/json": "^1.2.6",
     "dayjs": "^1.11.18"
   },
   "devDependencies": {
