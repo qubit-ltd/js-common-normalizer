@@ -40,25 +40,21 @@ describe('normalizeBool', () => {
   });
 
   test('should return true for Boolean object true', () => {
-    // eslint-disable-next-line no-new-wrappers
     const result = normalizeBool(new Boolean(true));
     expect(result).toBe(true);
   });
 
   test('should return false for Boolean object false', () => {
-    // eslint-disable-next-line no-new-wrappers
     const result = normalizeBool(new Boolean(false));
     expect(result).toBe(false);
   });
 
   test('should return true for String object "true"', () => {
-    // eslint-disable-next-line no-new-wrappers
     const result = normalizeBool(new String('true'));
     expect(result).toBe(true);
   });
 
   test('should return false for String object "false"', () => {
-    // eslint-disable-next-line no-new-wrappers
     const result = normalizeBool(new String('false'));
     expect(result).toBe(false);
   });
