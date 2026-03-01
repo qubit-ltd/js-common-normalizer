@@ -3,8 +3,8 @@
 [![npm package](https://img.shields.io/npm/v/@qubit-ltd/common-normalizer.svg)](https://npmjs.com/package/@qubit-ltd/common-normalizer)
 [![License](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![中文文档](https://img.shields.io/badge/文档-中文版-blue.svg)](README.zh_CN.md)
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Haixing-Hu/js-common-normalizer/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/Haixing-Hu/js-common-normalizer/tree/master)
-[![Coverage Status](https://coveralls.io/repos/github/Haixing-Hu/js-common-normalizer/badge.svg?branch=master)](https://coveralls.io/github/Haixing-Hu/js-common-normalizer?branch=master)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/qubit-ltd/js-common-normalizer/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/qubit-ltd/js-common-normalizer/tree/master)
+[![Coverage Status](https://coveralls.io/repos/github/qubit-ltd/js-common-normalizer/badge.svg?branch=master)](https://coveralls.io/github/qubit-ltd/js-common-normalizer?branch=master)
 
 [@qubit-ltd/common-normalizer] is a JavaScript ES6 library that provides a set of utility functions for normalizing common fields in web applications. It helps standardize data formats for various types such as booleans, dates, numbers, and more, making data handling more consistent and reliable.
 
@@ -117,4 +117,4 @@ to open an issue or submit a pull request to the [GitHub repository].
 See the [LICENSE](LICENSE) file for more details.
 
 [@qubit-ltd/common-normalizer]: https://npmjs.com/package/@qubit-ltd/common-normalizer
-[GitHub repository]: https://github.com/Haixing-Hu/js-common-normalizer
+[GitHub repository]: https://github.com/qubit-ltd/js-common-normalizer

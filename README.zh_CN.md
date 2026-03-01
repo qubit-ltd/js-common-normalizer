@@ -3,8 +3,8 @@
 [![npm package](https://img.shields.io/npm/v/@qubit-ltd/common-normalizer.svg)](https://npmjs.com/package/@qubit-ltd/common-normalizer)
 [![License](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![English Document](https://img.shields.io/badge/Document-English-blue.svg)](README.md)
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Haixing-Hu/js-common-normalizer/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/Haixing-Hu/js-common-normalizer/tree/master)
-[![Coverage Status](https://coveralls.io/repos/github/Haixing-Hu/js-common-normalizer/badge.svg?branch=master)](https://coveralls.io/github/Haixing-Hu/js-common-normalizer?branch=master)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/qubit-ltd/js-common-normalizer/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/qubit-ltd/js-common-normalizer/tree/master)
+[![Coverage Status](https://coveralls.io/repos/github/qubit-ltd/js-common-normalizer/badge.svg?branch=master)](https://coveralls.io/github/qubit-ltd/js-common-normalizer?branch=master)
 
 [@qubit-ltd/common-normalizer] 是一个JavaScript ES6库，提供了一系列用于规范化Web应用程序中常见字段的工具函数。它可以帮助标准化各种数据类型（如布尔值、日期、数字等）的格式，使数据处理更加一致和可靠。
 
@@ -116,4 +116,4 @@ const moneyValue = Normalizer.money('1234.56');     // 格式化为货币
 更多详情请参阅[LICENSE](LICENSE)文件。
 
 [@qubit-ltd/common-normalizer]: https://npmjs.com/package/@qubit-ltd/common-normalizer
-[GitHub仓库]: https://github.com/Haixing-Hu/js-common-normalizer 
+[GitHub仓库]: https://github.com/qubit-ltd/js-common-normalizer 
